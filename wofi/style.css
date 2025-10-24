@@ -1,0 +1,23 @@
+window {
+	font-family: "IosevkaTerm NF";
+	background-color: rgba(0, 0, 0, 0.25);
+	color: white;
+
+	border-radius: 0;
+}
+
+#input {
+	border-radius: 0;
+	background-color: rgba(0, 0, 0, 0.25);
+	margin: 5px;
+
+	color: white;
+}
+
+#entry {
+	margin: 5px;
+}
+
+#entry:selected {
+	background-color: darkcyan;
+}

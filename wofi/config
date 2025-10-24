@@ -1,0 +1,6 @@
+normal_window = true
+width = 25%
+prompt = Run...
+term = kitty
+hide_scroll = true
+insensitive = true

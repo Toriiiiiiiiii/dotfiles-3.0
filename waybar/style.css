@@ -1,0 +1,82 @@
+* {
+	font-family: "IosevkaTerm NF";
+	font-size: 13px;
+	padding: 0px;
+}
+
+#waybar {
+    padding: 0px;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+window#waybar {
+	background: transparent;
+	margin: 5px;
+}
+
+window#waybar > box {
+	background-color: rgba(0, 0, 0, 0.25);
+	margin-bottom: 8px;
+	box-shadow: 0px 0px 5px black;
+}
+
+#clock,
+#tray,
+#battery,
+#workspaces,
+#pulseaudio,
+#custom-toptext,
+#custom-caway {
+    margin: 6px 6px 6px 0px;
+	padding: 1px 8px;
+	color: lightgray;
+	transition-duration: 120ms;
+    background: transparent;
+}
+
+#custom-caway {
+    color: green;
+}
+
+#clock {
+	margin-right: 6px;
+    background: lightgreen;
+    color: black;
+}
+
+#pulseaudio {
+	margin-right: 6px;
+    background: cyan;
+    color: black;
+}
+
+#battery {
+	margin-right: 6px;
+	background: yellow;
+	color: black;
+}
+
+#workspaces button {
+	transition-duration: 100ms;
+	all: initial;
+	min-width: 0;
+	font-weight: bold;
+	color: cyan;
+    padding-left: 0.2cm;
+    padding-right: 0.2cm;
+}
+
+#workspaces button:hover {
+	transition-duration: 120ms;
+	color: white;
+}
+
+#workspaces button.focused {
+    background: cyan;
+	color: black;
+}
+
+#workspaces button.active {
+    background: cyan;
+	color: black;
+}
